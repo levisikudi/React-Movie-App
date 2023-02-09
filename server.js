@@ -23,6 +23,7 @@ app.get('/get_movie/:movieString', async (req, res) =>{
     res.json(data);
 })
 
+
 app.listen(4002, () => {
     console.log(`Server is Listening on 4002`)
 })
