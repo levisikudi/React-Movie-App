@@ -34,7 +34,7 @@ const Search = (props) => {
 
         let serverResponse = await axios({
             method: 'GET',
-            url: `http://localhost:4002/get_movie/${searchString}`
+            url: `/get_movie/${searchString}`
         });
         console.log(serverResponse);
         setSearchString('')
